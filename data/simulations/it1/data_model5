@@ -1,0 +1,258 @@
+Autoloading python/3.8.12
+Autoloading py-setuptools/58.2.0
+Autoloading python/3.8.12
+5 /scratch/smrserraoseabr/ESMDA/data/simulations/it1 91
+rodando job 5
+/scratch/smrserraoseabr/ESMDA
+darts-linear-solvers built on 16/03/2022, 18:57:28 by root@runner-ao6cLVhf-project-348-concurrent-0 from c786ae7
+darts-engines built on 26/03/2022, 21:23:43 by root@runner-Gd7HMPkj-project-338-concurrent-0 from 3a8e768
+darts-flash built on 18/02/2021, 10:37:25 by root@runner-czxx3vC9-project-768-concurrent-0 from ddd84bd
+darts-physics built on 20/04/2021, 11:05:31 by root@runner-Gd7HMPkj-project-437-concurrent-0 from e43b597
+darts-package built on 27/03/2022 13:21:20 by root@runner-Gd7HMPkj-project-1205-concurrent-0 from d89b1a8
+Reading ACTNUM from /scratch/smrserraoseabr/ESMDA/data/Egg/data.in... 3600 values have been read.
+Building connection list...
+Applying ACTNUM...
+Inactive blocks due to ACTNUM:  1109
+Inactive connections due to transmissibility:  0
+Inactive connections total:  2213
+Inactive blocks due to inactive connections:  0
+Processing mesh: 2491 reservoir blocks, 24 well blocks, 4891 connections
+2-phase 2-component isothermal flow with kinetic reaction and diffusion CPU engine
+Sim params: 
+	First ts: 	0.01
+	Max ts: 	10
+	Mult ts: 	2
+	Max i newton: 	20
+	Max i linear: 	50
+	Tol newton: 	0.01
+	Tol linear: 	0.0001
+	OpenMP threads: 	1
+
+START SIMULATION
+-------------------------------------------------------------------------------------------------------------
+Well INJ1 initialized with water rate injector
+Well INJ2 initialized with water rate injector
+Well INJ3 initialized with water rate injector
+Well INJ4 initialized with water rate injector
+Well INJ5 initialized with water rate injector
+Well INJ6 initialized with water rate injector
+Well INJ7 initialized with water rate injector
+Well INJ8 initialized with water rate injector
+Well PRD1 initialized with BHP producer
+Well PRD2 initialized with BHP producer
+Well PRD3 initialized with BHP producer
+Well PRD4 initialized with BHP producer
+	 #1 (8.7434e-02, 1.9440e+06): lin 1 (3.7e-05)
+Well INJ1 switched to BHP injector
+Well INJ2 switched to BHP injector
+Well INJ3 switched to BHP injector
+Well INJ4 switched to BHP injector
+Well INJ5 switched to BHP injector
+Well INJ7 switched to BHP injector
+Well INJ8 switched to BHP injector
+	 #2 (1.0319e-03, 2.4362e+03): lin 5 (9.2e-05)
+	 #3 (4.3855e-04, 3.2011e+00): lin 4 (5.7e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.01, DT = 0.01, NI = 3, LI = 10, RES = 7.9e-10 (3.0e-05), CFL=0.019 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.4448e-01, 2.0961e-01): lin 5 (7.4e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.03, DT = 0.02, NI = 1, LI = 5, RES = 8.0e-04 (4.5e-02), CFL=0.028 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.2469e-01, 8.9495e-02): lin 6 (2.0e-05)
+Local chop applied in 1 block(s)
+	 #2 (6.3413e-02, 5.0366e-03): lin 5 (1.9e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.07, DT = 0.04, NI = 2, LI = 11, RES = 2.9e-03 (1.6e-04), CFL=0.053 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.8059e-01, 2.3720e-02): lin 6 (3.4e-05)
+Local chop applied in 2 block(s)
+Well INJ6 switched to BHP injector
+	 #2 (8.4113e-02, 9.7736e+00): lin 5 (9.0e-05)
+	 #3 (1.5186e-02, 2.8972e-02): lin 5 (4.2e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.15, DT = 0.08, NI = 3, LI = 16, RES = 7.0e-04 (1.5e-03), CFL=0.588 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.9540e-01, 6.3590e-03): lin 7 (8.4e-05)
+Local chop applied in 3 block(s)
+	 #2 (3.1991e-02, 1.1234e-01): lin 7 (3.2e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.31, DT = 0.16, NI = 2, LI = 14, RES = 3.7e-03 (2.9e-03), CFL=0.659 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.4594e-01, 5.7710e-03): lin 8 (4.5e-05)
+Local chop applied in 8 block(s)
+	 #2 (7.6262e-02, 3.3935e-02): lin 6 (7.5e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 0.63, DT = 0.32, NI = 2, LI = 14, RES = 6.6e-03 (3.4e-02), CFL=0.547 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.8802e-01, 6.7929e-02): lin 8 (1.9e-05)
+Local chop applied in 5 block(s)
+	 #2 (8.7123e-02, 3.1970e-02): lin 7 (5.1e-05)
+	 #3 (1.6951e-02, 4.4458e-02): lin 8 (3.3e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 1.27, DT = 0.64, NI = 3, LI = 23, RES = 1.0e-03 (4.1e-03), CFL=0.808 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.7304e-01, 8.2949e-03): lin 9 (3.4e-05)
+Local chop applied in 13 block(s)
+	 #2 (2.4077e-01, 9.0712e-02): lin 8 (6.0e-05)
+Local chop applied in 3 block(s)
+	 #3 (5.2749e-02, 1.0897e-01): lin 7 (4.3e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 2.55, DT = 1.28, NI = 3, LI = 24, RES = 8.3e-03 (3.3e-02), CFL=1.054 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (6.0282e-01, 6.5739e-02): lin 8 (8.5e-05)
+Local chop applied in 21 block(s)
+	 #2 (3.0623e-01, 6.1380e-01): lin 7 (6.8e-05)
+Local chop applied in 6 block(s)
+	 #3 (9.7186e-02, 3.6818e-01): lin 9 (2.9e-05)
+Local chop applied in 1 block(s)
+	 #4 (1.3579e-02, 1.9194e-02): lin 7 (4.8e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 5.11, DT = 2.56, NI = 4, LI = 31, RES = 1.9e-04 (2.3e-02), CFL=1.883 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (6.8911e-01, 4.6717e-02): lin 10 (6.5e-05)
+Local chop applied in 47 block(s)
+	 #2 (5.6915e-01, 4.7223e-01): lin 9 (5.9e-05)
+Local chop applied in 21 block(s)
+	 #3 (2.3993e-01, 1.9149e-01): lin 10 (3.1e-05)
+Local chop applied in 8 block(s)
+	 #4 (9.7143e-02, 1.1030e-01): lin 8 (9.4e-05)
+Local chop applied in 3 block(s)
+	 #5 (3.8132e-02, 2.0533e-01): lin 9 (5.1e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 10.23, DT = 5.12, NI = 5, LI = 46, RES = 1.0e-03 (8.2e-03), CFL=3.447 (ELAPSED 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (7.9976e-01, 1.6001e-02): lin 9 (4.6e-05)
+Composition correction applied in 3 block(s)
+Local chop applied in 67 block(s)
+	 #2 (9.3466e-01, 3.3347e-01): lin 10 (4.1e-05)
+Composition correction applied in 1 block(s)
+Local chop applied in 44 block(s)
+	 #3 (3.8930e-01, 7.0212e-01): lin 11 (4.1e-05)
+Local chop applied in 20 block(s)
+	 #4 (2.7298e-01, 1.8702e-01): lin 11 (6.5e-05)
+Local chop applied in 12 block(s)
+	 #5 (1.4215e-01, 5.7286e-01): lin 10 (5.9e-05)
+Local chop applied in 7 block(s)
+	 #6 (2.1889e-01, 2.3180e-01): lin 10 (5.8e-05)
+Local chop applied in 4 block(s)
+	 #7 (6.8561e-02, 4.7832e-02): lin 9 (4.2e-05)
+Local chop applied in 1 block(s)
+	 #8 (2.7465e-02, 3.5586e-02): lin 8 (5.1e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 20.23, DT = 10, NI = 8, LI = 78, RES = 1.5e-04 (7.2e-02), CFL=6.374 (ELAPSED 00:00:00, REMAINING 00:00:02 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (4.4750e-01, 7.2369e-02): lin 10 (3.2e-05)
+Local chop applied in 80 block(s)
+	 #2 (5.4199e-01, 1.6632e-01): lin 10 (7.1e-05)
+Composition correction applied in 2 block(s)
+Local chop applied in 34 block(s)
+	 #3 (2.4046e-01, 4.3430e-01): lin 11 (4.1e-05)
+Local chop applied in 11 block(s)
+	 #4 (2.5341e-01, 4.3905e-02): lin 8 (9.5e-05)
+Composition correction applied in 1 block(s)
+Local chop applied in 3 block(s)
+	 #5 (1.2013e-01, 6.4308e-01): lin 11 (3.3e-05)
+Local chop applied in 2 block(s)
+	 #6 (6.0592e-02, 7.4268e-02): lin 9 (4.0e-05)
+Local chop applied in 2 block(s)
+	 #7 (3.4372e-02, 1.7636e-01): lin 8 (5.0e-05)
+Local chop applied in 1 block(s)
+	 #8 (1.7140e-02, 4.1874e-02): lin 9 (4.0e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 30.23, DT = 10, NI = 8, LI = 76, RES = 6.9e-03 (2.8e-02), CFL=6.128 (ELAPSED 00:00:00, REMAINING 00:00:01 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (3.2283e-01, 2.8034e-02): lin 11 (8.2e-05)
+Local chop applied in 87 block(s)
+	 #2 (3.6686e-01, 4.6795e-01): lin 9 (6.7e-05)
+Composition correction applied in 1 block(s)
+Local chop applied in 27 block(s)
+	 #3 (1.6059e-01, 6.2246e-01): lin 11 (8.2e-05)
+Local chop applied in 5 block(s)
+	 #4 (1.1673e-01, 1.9127e-01): lin 7 (4.7e-05)
+Local chop applied in 5 block(s)
+	 #5 (8.8295e-02, 1.5924e-01): lin 6 (2.1e-05)
+Local chop applied in 3 block(s)
+	 #6 (4.7186e-02, 3.8152e-02): lin 9 (3.7e-05)
+Local chop applied in 2 block(s)
+	 #7 (2.2772e-02, 1.3410e-02): lin 7 (5.3e-05)
+Local chop applied in 1 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 40.23, DT = 10, NI = 7, LI = 60, RES = 1.7e-03 (2.8e-02), CFL=5.985 (ELAPSED 00:00:00, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.6455e-01, 2.8033e-02): lin 8 (3.0e-05)
+Composition correction applied in 1 block(s)
+Local chop applied in 88 block(s)
+	 #2 (3.7790e-01, 9.8928e-02): lin 9 (4.5e-05)
+Composition correction applied in 1 block(s)
+Local chop applied in 22 block(s)
+	 #3 (1.5228e-01, 1.9258e-01): lin 11 (3.6e-05)
+Local chop applied in 9 block(s)
+	 #4 (1.2768e-01, 1.1522e-01): lin 8 (3.1e-05)
+Local chop applied in 4 block(s)
+	 #5 (6.9133e-02, 6.4149e-02): lin 10 (4.9e-05)
+Local chop applied in 4 block(s)
+	 #6 (2.7082e-02, 4.4920e-02): lin 10 (4.5e-05)
+Local chop applied in 2 block(s)
+	 #7 (1.9554e-02, 3.2119e-02): lin 9 (4.8e-05)
+Local chop applied in 1 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 50.23, DT = 10, NI = 7, LI = 65, RES = 4.0e-03 (1.4e-02), CFL=5.885 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (2.2466e-01, 1.3864e-02): lin 12 (3.0e-05)
+Composition correction applied in 2 block(s)
+Local chop applied in 81 block(s)
+	 #2 (2.7901e-01, 3.5697e-02): lin 10 (5.8e-05)
+Local chop applied in 21 block(s)
+	 #3 (1.0810e-01, 1.0635e-01): lin 10 (2.6e-05)
+Local chop applied in 7 block(s)
+	 #4 (8.5318e-02, 1.2296e-01): lin 9 (4.6e-05)
+Local chop applied in 3 block(s)
+	 #5 (4.1593e-02, 6.0480e-02): lin 9 (8.9e-05)
+Local chop applied in 4 block(s)
+	 #6 (3.0282e-02, 6.4110e-02): lin 9 (4.3e-05)
+Local chop applied in 1 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 60.23, DT = 10, NI = 6, LI = 59, RES = 7.2e-03 (1.2e-02), CFL=5.741 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.9612e-01, 1.2163e-02): lin 10 (4.9e-05)
+Composition correction applied in 2 block(s)
+Local chop applied in 82 block(s)
+	 #2 (2.3121e-01, 1.2133e-01): lin 10 (6.2e-05)
+Local chop applied in 18 block(s)
+	 #3 (9.0628e-02, 3.3470e-02): lin 11 (4.5e-05)
+Local chop applied in 8 block(s)
+	 #4 (5.9397e-02, 3.7453e-02): lin 10 (8.2e-05)
+Local chop applied in 4 block(s)
+	 #5 (1.6691e-02, 3.8451e-02): lin 9 (9.8e-05)
+Local chop applied in 1 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 70.23, DT = 10, NI = 5, LI = 50, RES = 5.2e-03 (1.6e-02), CFL=5.544 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.7625e-01, 1.5927e-02): lin 11 (8.2e-05)
+Local chop applied in 78 block(s)
+	 #2 (1.8837e-01, 1.3242e-01): lin 10 (4.7e-05)
+Local chop applied in 10 block(s)
+	 #3 (6.9884e-02, 4.2861e-02): lin 9 (4.8e-05)
+Local chop applied in 9 block(s)
+	 #4 (4.4173e-02, 1.6146e-02): lin 10 (5.4e-05)
+Local chop applied in 1 block(s)
+-------------------------------------------------------------------------------------------------------------
+ T = 80.23, DT = 10, NI = 4, LI = 40, RES = 4.6e-03 (2.3e-02), CFL=5.348 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.5588e-01, 2.3157e-02): lin 12 (5.8e-05)
+Local chop applied in 77 block(s)
+	 #2 (1.7299e-01, 2.9418e-02): lin 11 (6.6e-05)
+Local chop applied in 14 block(s)
+	 #3 (4.8731e-02, 3.2265e-02): lin 9 (5.3e-05)
+Local chop applied in 7 block(s)
+	 #4 (2.7448e-02, 1.7425e-02): lin 10 (9.6e-05)
+Local chop applied in 2 block(s)
+	 #5 (1.1635e-02, 8.3040e-03): lin 10 (4.1e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 90.23, DT = 10, NI = 5, LI = 52, RES = 1.6e-03 (9.3e-03), CFL=5.073 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------
+	 #1 (1.1042e-02, 7.1242e-04): lin 8 (8.8e-05)
+-------------------------------------------------------------------------------------------------------------
+ T = 91, DT = 0.77, NI = 1, LI = 8, RES = 2.8e-04 (5.8e-03), CFL=0.388 (ELAPSED 00:00:01, REMAINING 00:00:00 )
+-------------------------------------------------------------------------------------------------------------

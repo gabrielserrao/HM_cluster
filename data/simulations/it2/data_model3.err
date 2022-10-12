@@ -1,0 +1,6 @@
+slurmstepd: error: couldn't chdir to `/tudelft.net/staff-umbrella/gabrielserrao/FlowSimulation/HM': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/tudelft.net/staff-umbrella/gabrielserrao/FlowSimulation/HM': No such file or directory: going to /tmp instead
+Autoloading python/3.8.12
+Autoloading py-setuptools/58.2.0
+Autoloading python/3.8.12
+python: can't open file 'main_darts.py': [Errno 2] No such file or directory

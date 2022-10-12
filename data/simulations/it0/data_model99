@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=99
+#SBATCH --output=/scratch/smrserraoseabr/ESMDA/data/simulations/it0/data_model99
+#SBATCH --error=/scratch/smrserraoseabr/ESMDA/data/simulations/it0/data_model99
+#SBATCH --time=2:00:00
+#SBATCH --mem=1G
+#SBATCH --partition=compute
+#SBATCH --account=research-ceg-gse
+module load 2022r2
+a=99
+b=/scratch/smrserraoseabr/ESMDA/data/simulations/it0
+c=991
+python main_darts.py $a $b $c
